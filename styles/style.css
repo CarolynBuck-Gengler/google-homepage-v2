@@ -1,0 +1,85 @@
+html {
+/* sticky footer following https://codepen.io/chriscoyier/pen/YWKNrE   */
+    height: 100%; /*used for grid version of sticky footer*/
+    min-width: 1130px; /*approx the same actual page*/
+}
+body {
+    /*first three from codepen for sf*/
+    min-height: 100%; 
+    display: grid;
+    grid-template-rows: 1fr auto;
+    margin: 0 auto;
+}
+
+.content {
+  padding: 20px;
+}
+.footer {
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+/*  margin: 0;*/
+  font: 16px Sans-Serif;
+}
+h1 {
+  margin: 0 0 20px 0;
+}
+p {
+  margin: 0 0 20px 0;
+}
+.footer {
+  background: #42A5F5;
+  color: white;
+  padding: 20px;
+}
+
+main {
+/*    clear: both;*/
+/*    padding-top: 40px;*/
+}
+
+.center {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.googlelogo {
+	width: 250px;
+	margin: 120px auto 20px auto;
+}
+
+.search-bar-border {
+	height: 45px;
+	width: 500px;
+	border: lightgrey 1px solid;
+	border-radius: 40px;
+	margin-bottom: 30px;
+	box-shadow: none;
+}
+.search-bar-border:hover {
+	box-shadow: 1px 1px 7px 1px lightgrey;
+}
+.search-term {
+	float: left;
+	height: 35px;
+	width: 425px;
+	margin: 4px 10px 4px 15px;
+	font-size: 100%;
+	border: none;
+}
+
+.search-term:focus {
+	outline: none;
+}
+
+.voice-icon {
+	height: 25px;
+	width: 25px;
+	margin: 10px 0;
+}
