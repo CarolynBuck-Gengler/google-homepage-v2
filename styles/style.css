@@ -38,6 +38,53 @@ p {
   padding: 20px;
 }
 
+
+
+/*nav bars at top and bottom */
+nav {
+	margin: 15px 15px;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+	display: inline;
+	margin: 0 10px;
+}
+nav ul li a {
+	font-size: 13px;
+	font-family: Arial;
+	color: #525151; /*a darkish grey*/
+	text-decoration: none;
+}
+nav ul li a:hover {
+	text-decoration: underline;
+}
+.left-side {
+	float: left;
+}
+.right-side {
+	float: right;
+}
+/*
+.user-letter {
+	width: 33px;
+	height: 33px;
+	border-radius: 50%;
+	margin-top: -10px;
+}
+*/
+.sign-in {
+    height: 40px;
+    border-radius: 5%;
+    color: white;
+    font-weight: bold;
+    background: #4285f4; /* lighter blue color from google site */
+    padding: 7px 11px;
+}
+
 main {
 /*    clear: both;*/
 /*    padding-top: 40px;*/
