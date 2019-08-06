@@ -59,6 +59,9 @@ nav ul li a {
 nav ul li a:hover {
 	text-decoration: underline;
 }
+.header-nav {
+    padding-top: 8px;
+}
 .left-side {
 	float: left;
 }
@@ -71,7 +74,10 @@ nav ul li a:hover {
     color: white;
     font-weight: bold;
     background: #4285f4; /* lighter blue color from google site */
-    padding: 7px 11px;
+    padding: 7px 12px;
+}
+.sign-in:hover {
+    text-decoration: none;
 }
 
 main {
@@ -86,13 +92,13 @@ main {
 }
 
 .googlelogo {
-	width: 250px;
+	width: 260px;
 	margin: 120px auto 20px auto;
 }
 
 .search-bar-border {
 	height: 45px;
-	width: 500px;
+	width: 550px;
 	border: lightgrey 1px solid;
 	border-radius: 40px;
 	margin-bottom: 30px;
@@ -104,7 +110,7 @@ main {
 .search-term {
 	float: left;
 	height: 35px;
-	width: 425px;
+	width: 475px;
 	margin: 4px 10px 4px 15px;
 	font-size: 100%;
 	border: none;
