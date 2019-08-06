@@ -83,3 +83,20 @@ main {
 	width: 25px;
 	margin: 10px 0;
 }
+
+.submit-buttons-section {
+	clear: both;
+	margin-top: 25px;
+}
+.submit-buttons {
+	background: #ebeaea; /* a very light grey */
+	border-radius: 3px;
+	border: none;
+	padding: 10px 15px;
+	font-size: 13px;
+	color: #535252; /* a very dark grey */
+	margin: 0 4px;
+}
+.submit-buttons:hover {
+	border: solid 1px grey;
+}
