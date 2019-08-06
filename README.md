@@ -11,3 +11,5 @@ The skills I've been working on while doing this project included
 * placement of items on the page and subtle adjustments to margin and padding
 * styling of elements when hovered
 * more advanced use of the Chrome DevTools
+
+This site is published at https://carolynbuck-gengler.github.io/google-homepage-v2/
