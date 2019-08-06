@@ -4,4 +4,10 @@ In this second attempt I am going to use git commits step by step as shown in a 
 
 From The Odin Project's [curriculum](http://www.theodinproject.com/courses/web-development-101/lessons/html-css)
 
-
+The skills I've been working on while doing this project included
+* sticky footers
+* grid layout (simple, but to get sticky footer to work)
+* horizontal navigation bars where some items are on the left and others on the right
+* placement of items on the page and subtle adjustments to margin and padding
+* styling of elements when hovered
+* more advanced use of the Chrome DevTools
